@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App" data-testid='test'>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <Link to='/'>Home</Link>
